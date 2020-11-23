@@ -1,0 +1,85 @@
+@media (min-width: 768px) and (max-width:991px) {
+  .exams-topnav span {
+    padding-left: 3%;
+  }
+  .exam-body-back {
+  	letter-spacing: 0.05em;
+  }
+  .exam-body-stu p {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+  }
+  .submit-btn button{
+  	font-size:12px;
+  }
+}
+@media (min-width:300px) and (max-width:767px) {
+	.padd-body{
+		padding-top:80px;
+	}
+	.exam-body-back {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    position: static;
+	    top: auto;
+	    left:auto;
+	    text-align: center;
+	    overflow: hidden;
+	}
+	.exam-cutdown{
+		width:35%;
+		position:fixed;
+		top:40px;
+		left:0;
+		z-index:20000;
+		background:#fff;
+	}
+	.exam-body-stu {
+	    width:45%;
+		position:fixed;
+		top:40px;
+		left:35%;
+		z-index:20000;
+		border:none;
+		border-radius:0;
+	}
+	.exam-cutdown h4{
+		color:#1aaba8;
+		font-size:14px;
+	}
+	.exam-body-stu p {
+	    color:#1aaba8;
+	}
+	.toAnswerSheet{
+		display:block;
+	}
+}
+@media (min-width: 480px) and (max-width:767px) {
+ .exams-topnav{
+ 	font-size:16px;
+ 	letter-spacing: 0.05em;
+ }
+ .exams-topnav span {
+    padding-left: 3%;
+  }
+}
+@media (min-width: 300px) and (max-width:479px) {
+ .exams-topnav{
+ 	font-size:12px;
+ 	letter-spacing: 0.05em;
+ }
+ .exams-topnav a{
+ 	font-size:12px;
+ }
+ .exams-topnav span {
+    padding-left: 1%;
+    display:inline-block;
+    width:8em;
+    white-space:nowrap;
+     overflow:hidden; 
+     text-overflow:ellipsis;
+  }
+  .exams-topnav .exams-time {
+    padding-right: 1%;
+  }
+}
