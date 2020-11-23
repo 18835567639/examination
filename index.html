@@ -166,24 +166,32 @@
 
 <script>
     function jumpTest(index,type){
-        if(index === 1){
-            window.location.href = `./计算机组成原理/${type}.html`
-        }
-        if(index === 2){
-            window.location.href = `./编译原理/${type}.html`
-        }
-        if(index === 3){
-            window.location.href = `./操作系统/${type}.html`
-        }
-        if(index === 4){
-            window.location.href = `./多媒体技术/${type}.html`
-        }
-        if(index === 5){
-            window.location.href = `./中国近现代史纲要/${type}.html`
-        }
-        if(index === 6){
-            window.location.href = `./离散数学/${type}.html`
-        }
+        setTimeout(()=>{
+            if(index === 1){
+                window.location.href = `./计算机组成原理/${type}.html`
+                // history.pushState(`./计算机组成原理/${type}.html`)
+            }
+            if(index === 2){
+                window.location.href = `./编译原理/${type}.html`
+                // history.pushState(`./编译原理/${type}.html`)
+            }
+            if(index === 3){
+                window.location.href = `./操作系统/${type}.html`
+                // history.pushState(`./操作系统/${type}.html`)
+            }
+            if(index === 4){
+                window.location.href = `./多媒体技术/${type}.html`
+                // history.pushState(`./多媒体技术/${type}.html`)
+            }
+            if(index === 5){
+                window.location.href = `./中国近现代史纲要/${type}.html`
+                // history.pushState(`./中国近现代史纲要/${type}.html`)
+            }
+            if(index === 6){
+                window.location.href = `./离散数学/${type}.html`
+                // history.pushState(`./离散数学/${type}.html`)
+            }
+        },500)
     }
 </script>
 
