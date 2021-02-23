@@ -42,7 +42,7 @@
 <body>
     <div class="box">
         <div class="classTitle">
-            计算机组成原理
+            计算机网络
         </div>
         <div class="testBox">
             <div class="testList" onclick="jumpTest(1,'1')">
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="classTitle">
-            编译原理
+            数据库概论
         </div>
         <div class="testBox">
             <div class="testList" onclick="jumpTest(2,'1')">
@@ -82,7 +82,7 @@
             </div>
         </div>
         <div class="classTitle">
-            操作系统
+            计算机系统结构
         </div>
         <div class="testBox">
             <div class="testList" onclick="jumpTest(3,'1')">
@@ -102,7 +102,7 @@
             </div>
         </div>
         <div class="classTitle">
-            多媒体技术
+            软件工程
         </div>
         <div class="testBox">
             <div class="testList" onclick="jumpTest(4,'1')">
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="classTitle">
-            中国近现代史纲要
+            形势与政策
         </div>
         <div class="testBox">
             <div class="testList" onclick="jumpTest(5,'1')">
@@ -142,7 +142,7 @@
             </div>
         </div>
         <div class="classTitle">
-            离散数学
+            计算机接口与通讯
         </div>
         <div class="testBox">
             <div class="testList" onclick="jumpTest(6,'1')">
@@ -168,28 +168,28 @@
     function jumpTest(index,type){
         setTimeout(()=>{
             if(index === 1){
-                window.location.href = `./计算机组成原理/${type}.html`
-                // history.pushState(`./计算机组成原理/${type}.html`)
+                window.location.href = `./计算机网络/${type}.html`
+                // history.pushState(`./计算机网络/${type}.html`)
             }
             if(index === 2){
-                window.location.href = `./编译原理/${type}.html`
-                // history.pushState(`./编译原理/${type}.html`)
+                window.location.href = `./数据库概论/${type}.html`
+                // history.pushState(`./数据库概论/${type}.html`)
             }
             if(index === 3){
-                window.location.href = `./操作系统/${type}.html`
-                // history.pushState(`./操作系统/${type}.html`)
+                window.location.href = `./计算机系统结构/${type}.html`
+                // history.pushState(`./计算机系统结构/${type}.html`)
             }
             if(index === 4){
-                window.location.href = `./多媒体技术/${type}.html`
-                // history.pushState(`./多媒体技术/${type}.html`)
+                window.location.href = `./软件工程/${type}.html`
+                // history.pushState(`./软件工程/${type}.html`)
             }
             if(index === 5){
-                window.location.href = `./中国近现代史纲要/${type}.html`
-                // history.pushState(`./中国近现代史纲要/${type}.html`)
+                window.location.href = `./形势与政策/${type}.html`
+                // history.pushState(`./形势与政策/${type}.html`)
             }
             if(index === 6){
-                window.location.href = `./离散数学/${type}.html`
-                // history.pushState(`./离散数学/${type}.html`)
+                window.location.href = `./计算机接口与通讯/${type}.html`
+                // history.pushState(`./计算机接口与通讯/${type}.html`)
             }
         },500)
     }
